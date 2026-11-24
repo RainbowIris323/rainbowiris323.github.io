@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Iris</title>
+  <meta name="description" content="Projects by Your Iris Schwartz Spear: games, tools and websites.">
+  <link rel="icon" type="image/x-image" href="./images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300..700&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="./style/main.css">
+</head>
+<body>
+  <main class="container">
+    <section class="profile">
+      <img class="profile-photo"
+           src="https://avatars.githubusercontent.com/u/108814359"
+           alt="Photo of Iris Schwartz Spear">
+      <div>
+
+        <!-- PROFILE -->
+
+        <h1 class="profile-name">Iris Schwartz Spear</h1>
+        <p class="profile-role">Game Developer &amp; Software Engineer</p>
+        <p>Hello, I'm Iris, an aspiring game developer who is seeking to grow with every challenge I conquer!</p>
+        <p>I own and operate Raynbo Games and am actively developing Industrio for Roblox, which is a skyblock-style game with a robust player-run economy.</p>
+      
+        <!-- END PROFILE -->
+      
+      </div>
+    </section>
+    <hr class="divider">
+    <ul class="link-row">
+
+      <!-- LINKS -->
+
+      <li><a href="https://github.com/RainbowIris323"><i class="fa-brands fa-github" aria-hidden="true"></i> My GitHub</a></li>
+      
+      <li><a href="https://www.linkedin.com/in/iris-spear-54499229b/"><i class="fa-brands fa-linkedin" aria-hidden="true"></i> My LinkedIn</a></li>
+
+      <!-- END LINKS -->
+
+    </ul>
+    <section class="work">
+      <h2 class="section-title">My Work</h2>
+      <div class="filters" role="group" aria-label="Filter projects">
+
+        <!-- FILTERS -->
+
+        <button class="chip chip--all active" data-filter="all" aria-pressed="true">
+          All
+        </button>
+
+        <button class="chip chip--tech" data-filter="unity" aria-pressed="false">
+          Unity
+        </button>
+
+        <button class="chip chip--tech" data-filter="roblox" aria-pressed="false">
+          Roblox
+        </button>
+
+        <button class="chip chip--tech" data-filter="airship" aria-pressed="false">
+          Airship
+        </button>
+
+        <button class="chip chip--tech" data-filter="flask" aria-pressed="false">
+          Flask
+        </button>
+
+        <button class="chip chip--tech" data-filter="ai" aria-pressed="false">
+          AI
+        </button>
+
+        <button class="chip chip--lang" data-filter="cs" aria-pressed="false">
+          C#
+        </button>
+
+        <button class="chip chip--lang" data-filter="roblox-ts" aria-pressed="false">
+          Roblox-TS
+        </button>
+
+        <button class="chip chip--lang" data-filter="luau" aria-pressed="false">
+          Luau
+        </button>
+
+        <button class="chip chip--lang" data-filter="python" aria-pressed="false">
+          Python
+        </button>
+
+        <button class="chip chip--lang" data-filter="unity-ts" aria-pressed="false">
+          Unity-TS
+        </button>
+
+        <button class="chip chip--lang" data-filter="sql" aria-pressed="false">
+          SQL
+        </button>
+
+        <button class="chip chip--lang" data-filter="go" aria-pressed="false">
+          Go
+        </button>
+
+        <!-- END FILTERS -->
+
+      </div>
+      <div class="grid">
+
+        <!-- START PROJECTS -->
+
+        <article class="card" data-tags="roblox roblox-ts luau python go sql">
+          <div class="card-body">
+            <h3 class="card-title">Community Development Environment</h3>
+            <p>This is still in the early phases of development; however, I'm working with a few other developers to create a system where community members can vote on features and contribute code and assets to the game in return for contribution points, which in turn give a percentage of the game's revenue, and will utilize code blocks for visual programming and an asset security system based on stats and an as-needed basis, fully usable in the web browser on any device.</p>
+          </div>
+          <template class="card-details">
+            <p class="details-meta">Raynbo Games &middot; Early development</p>
+    
+            <ul>
+              <li>Working on a engine for roblox that can hot load updates, collect data for analitics on master server, and use code block and UGC loading without sacrificing performnce.</li>
+              <li>Working on a web based editor to create code blocks and low poly assets with animations and vfx in the browser.</li>
+              <li>Working on the build pipeline so players can contribute to the game without forfiting security.</li>
+            </ul>
+          </template>
+        </article>
+
+        <article class="card" data-tags="roblox roblox-ts luau python go sql">
+          <img src="images/industrio-thumbnail.png"
+               alt="Industrio thumbnail" loading="lazy">
+          <div class="card-body">
+            <h3 class="card-title">Industrio</h3>
+            <p>Industrio is a factory and automation game with a player-run economy and robust data management systems to protect the economy.</p>
+            <a class="text-link" href="https://www.roblox.com/games/132998282764976/Industrio">Play &rarr;</a>
+          </div>
+          <template class="card-details">
+            <p class="details-meta">Raynbo Games &middot; In active development</p>
+
+            <div class="details-media">
+              <video src="videos/industrio-demo.mp4"></video>
+              <video src="videos/industrio-trailer-ea.mp4"></video>
+              <video src="videos/industrio-trailer-playtesting.mp4"></video>
+              
+              <img src="images/industrio-dashboard.png" alt="Industrio game dashboard">
+              <img src="images/industrio-content-editor.png" alt="Industrio content editor">
+              <img src="images/industrio-playtest.png" alt="Industrio AI playtester">
+            </div>
+
+            <ul>
+              <li>Created a full and complex game as a solo developer.</li>
+              <li>Built innovative ways to boost productivity and quality of the games development.</li>
+              <li>Designed complex gameplay systems and intergrated them into the expanding game.</li>
+            </ul>
+          </template>
+        </article>
+
+        <article class="card" data-tags="python go sql">
+          <img src="images/industrio-dashboard.png"
+               alt="Industrio game dashboard" loading="lazy">
+          <div class="card-body">
+            <h3 class="card-title">Game Dashboard</h3>
+            <p>Due to the fact that Industrio has a player-run economy, I needed a way to track movements and see when items are overpopulating to better plan updates to stabilize item counts and retain rarities.</p>
+          </div>
+          <template class="card-details">
+            <p class="details-meta">Internal tool for Industrio</p>
+
+            <div class="details-media">
+              <img src="images/industrio-ledger-chain.png" alt="Industrio ledger chain">
+              <img src="images/industrio-ledger-block.png" alt="Industrio ledger block">
+            </div>
+
+            <ul>
+              <li>Created a hosted Ubuntu server to manage analytic events and server management.</li>
+              <li>Developed methods to turn raw data into easily understandable data for moderators.</li>
+              <li>Used PostgreSQL to store large ammounts of data and manage a blockchain for tracking economy movements up to 30 days.</li>
+              <li>Intergrated AI to analize data and trends to help with day one retention and detect any possible dupes or explotiers.</li>
+            </ul>
+          </template>
+        </article>
+
+        <article class="card" data-tags="python go ai">
+          <img src="images/industrio-playtest.png"
+               alt="Industrio playtest site" loading="lazy">
+          <div class="card-body">
+            <h3 class="card-title">Game Playtester</h3>
+            <p>As a solo developer, shipping large updates weekly with good quality is nearly impossible, so I created a playtest system that utilizes claude, and MCP servers to allow AI to play the game with specific personas and find bugs before a player ever touches the game.</p>
+          </div>
+          <template class="card-details">
+            <p class="details-meta">Internal tool for Industrio</p>
+            <ul>
+              <li>Developed workflows for AI to playtest games for meaningful results and insight.</li>
+              <li>Intergrated AI to play Industrio in Roblox Studio using a custom harness and MCP servers.</li>
+            </ul>
+          </template>
+        </article>
+
+        <article class="card" data-tags="python go">
+          <img src="images/industrio-content-editor.png"
+               alt="Industrio content editor site" loading="lazy">
+          <div class="card-body">
+            <h3 class="card-title">Content Editor</h3>
+            <p>JSON files are generally hard to read; however, Industrio uses JSON for almost all of the data in the game with 100s of files, so I created a local web app to manage JSON and push to the master server.</p>
+          </div>
+          <template class="card-details">
+            <p class="details-meta">Internal tool for Industrio</p>
+            <ul>
+              <li>Created a local development site for managing Industrio's data in a simple way.</li>
+              <li>Developed a build management system for updating live sevrers using Open Cloud API for Roblox and a Ubuntu sevrer.</li>
+            </ul>
+          </template>
+        </article>
+
+        <article class="card" data-tags="python flask">
+          <img src="images/airspy.png"
+               alt="Airspy website" loading="lazy">
+          <div class="card-body">
+            <h3 class="card-title">Airspy</h3>
+            <p>Airspy was a site used to track game stats over time but was shut down when Easy Games discontinued the Airship platform.</p>
+            <a class="text-link" href="https://github.com/raynbo-games/airmods-site">GitHub &rarr;</a>
+          </div>
+
+          <template class="card-details">
+            <div class="details-media">
+              <video src="videos/airmods-demo.mp4"></video>
+            </div>
+            <ul>
+              <li>Created a API scraper that would collect game information and find new games to track every minute.</li>
+              <li>Managed data using MySQL and developed ways to display it in a user friendly way.</li>
+              <li>Developed a method to authorize users on an exteral site that has no built in OAuth apllications.</li>
+            </ul>
+            <p class="details-meta">Stats site for Airship &middot; Shut down</p>
+          </template>
+        </article>
+
+        <article class="card" data-tags="unity unity-ts airship">
+          <img src="images/btsi.PNG"
+               alt="Build to survive island thumbnail" loading="lazy">
+          <div class="card-body">
+            <h3 class="card-title">Build To Survive Island</h3>
+            <p>BTSI was a game where you build a base to survive disasters with a very simple core loop; however, this was my first live game, and it was released on the Airship platform, which used unique tools not seen anywhere else, like TypeScript for Unity.</p>
+            <a class="text-link" href="https://github.com/raynbo-games/btsi-unity">GitHub &rarr;</a>
+          </div>
+
+          <template class="card-details">
+            <p class="details-meta">Airship game &middot; My first live game</p>
+            <ul>
+              <li>Created a full game as a solo dev using the Unity editor and Airship.</li>
+            </ul>
+          </template>
+        </article>
+
+        <article class="card" data-tags="unity cs">
+          <img src="https://image.modcdn.io/mods/c4e6/4534649/capture.png"
+               alt="Electric Takeover mod content" loading="lazy">
+          <div class="card-body">
+            <h3 class="card-title">Electric Takeover</h3>
+            <p>Electric Takeover was a mod for the game Eco, which added electric vehicles and a battery system to the game and helped me learn C#</p>
+            <a class="text-link" href="https://mod.io/g/eco/m/rm-electric-takeover#description">Mod.io &rarr;</a>
+            <a class="text-link" href="https://github.com/raynbo-games/Eco-Electric-Takeover-Mod">GitHub &rarr;</a>
+          </div>
+
+          <template class="card-details">
+            <div class="details-media">
+              <video src="videos/electric-takeover-trailer.mp4"></video>
+            </div>
+            <p class="details-meta">Mod for Eco</p>
+            <ul>
+              <li>Studied the source code for Eco to understand how I could work with it to make mods.</li>
+              <li>Used Unity and C# to make multiple mods and add new systems to a game with minimal modding support.</li>
+            </ul>
+          </template>
+        </article>
+
+        <article class="card" data-tags="unity unity-ts airship">
+          <img src="images/airship-raft-system.png"
+               alt="Raft system for Airship" loading="lazy">
+          <div class="card-body">
+            <h3 class="card-title">And More</h3>
+            <p>You can view my GitHub to see all of the smaller projects I have made or contributed to.</p>
+            <a class="text-link" href="https://github.com/RainbowIris323">View GitHub &rarr;</a>
+            <a class="text-link" href="https://www.youtube.com/@raynbo-games">View Youtube &rarr;</a>
+          </div>
+
+          <template class="card-details">
+            <p class="details-meta">Smaller projects I did to learn</p>
+            <div class="details-media">
+              <video src="videos/notification-test.mp4"></video>
+              <video src="videos/the-mazer.mp4"></video>
+              <video src="videos/roblox-early-exploration.mp4"></video>
+              <video src="videos/iron-framework.mp4"></video>
+              <video src="videos/vr-test.mp4"></video>
+              <video src="videos/vr-enviornment.mp4"></video>
+              <video src="videos/vr-vomit-sim.mp4"></video>
+              <video src="videos/eco-mod-automation.mp4"></video>
+              <video src="videos/airship-raft-system.mp4"></video>
+              <video src="videos/early-industrio-airship.mp4"></video>
+              <video src="videos/industrio-airship.mp4"></video>
+            </div>
+            <ul>
+              <li>2020 - A notification system for Roblox. (Roblox + Luau)</li>
+              <li>2021 - The Mazer was a 2d maze game with multiple levels and traps. (Python + Pygame)</li>
+              <li>2022 - Plot building system. (Roblox + Luau)</li>
+              <li>2023 - Iron was a framework for building random tick voxel games on Roblox. (Roblox + Roblox-TS)</li>
+              <li>2023 - A VR gun system. (Unity + XR Interaction Toolkit)</li>
+              <li>2023 - An enviornemnt for VR that I designed to make the player have a hard time tracking where there looking then sped it up for fun. (Unity + XR Interaction Toolkit)</li>
+              <li>2024 - Developed a system to build large groups of mods and create build files that is sent to users. (Unity + C + Batch)</li>
+              <li>2025 - Raft system for Airship where the character's physics could be linked to an rigdbody. (Unity + Airship)</li>
+              <li>2025 - An early version of Industrio for Airship. (Unity + Airship)</li>
+              <li>2025 - An updated version of Industrio for Airship. (Unity + Airship)</li>
+            </ul>
+          </template>
+        </article>
+
+        <!-- END PROJECTS -->
+
+      </div>
+    </section>
+  </main>
+  <dialog class="project-modal" id="project-modal" aria-labelledby="modal-title">
+    <button class="modal-close" type="button" aria-label="Close" autofocus>
+      <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+    </button>
+    <div class="modal-inner">
+      <div class="modal-media">
+        <div class="media-stage"></div>
+        <button class="media-nav media-prev" type="button" aria-label="Previous">
+          <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+        </button>
+        <button class="media-nav media-next" type="button" aria-label="Next">
+          <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+        </button>
+      </div>
+      <div class="media-thumbs"></div>
+      <h2 class="modal-title" id="modal-title"></h2>
+      <p class="modal-meta"></p>
+      <div class="modal-tags"></div>
+      <div class="modal-description"></div>
+      <div class="modal-links"></div>
+    </div>
+  </dialog>
+  <script src="./scripts/tech.js" defer></script>
+  <script src="./scripts/portfolio.js" defer></script>
+</body>
+</html>
